@@ -7,8 +7,7 @@ class Starks{
 	public:
 		//constructor
 		Starks();
-		//destructor
-		~Starks();
+
 		
 		//getteres
 		string getJefe();
@@ -26,6 +25,8 @@ class Starks{
 		void setCantLobos(int);
 		void setIntegrantes(int);
 
+		//destructor
+		~Starks();
 	private:
 		string jefe;
 		int cantidadlobos;
