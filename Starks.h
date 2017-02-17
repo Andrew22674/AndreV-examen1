@@ -1,4 +1,8 @@
 #include <iostream>
+#include <vector>
+
+#include "FamiliasNobles.h"
+
 
 #ifndef STARKS_H
 #define STARKS_H
@@ -16,6 +20,7 @@ class Starks{
 		string getGuerrero();
 		int getCantLobos();
 		int getIntegrantes();
+		
 
 		//setters
 		void setJefe(string);
@@ -24,7 +29,7 @@ class Starks{
 		void setGuerrero(string);
 		void setCantLobos(int);
 		void setIntegrantes(int);
-
+		void setFamilia(string, string, string, int, int, int);
 		//destructor
 		~Starks();
 	private:
@@ -32,6 +37,7 @@ class Starks{
 		int cantidadlobos;
 		string animalemblema;
 		string lema;
+		vector<FamiliasNobles*> familias;		
 		//agregar ejercito
 		string guerrerovalioso;
 		int integrantes;
