@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 #ifndef LANNISTER_H
 #define LANNISTER_H

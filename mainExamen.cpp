@@ -1,6 +1,13 @@
 #include <iostream>
 #include <string>
 
+#include "Dothraki.h"
+#include "FamiliasNobles.h"
+#include "GuardiaReal.h"
+#include "Lannister.h"
+#include "Starks.h"
+#include "Targaryen.h"
+
 using namespace std;
 
 int main(){

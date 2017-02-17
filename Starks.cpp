@@ -1,6 +1,6 @@
 #include "Starks.h"
 
-class Starks{
+
 	Starks::Starks(){
 		cantidadlobos = integrantes = 0;
 	}
@@ -59,4 +59,4 @@ class Starks{
 	Starks::~Starks(){
 		
 	}
-}
+

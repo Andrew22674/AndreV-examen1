@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 #ifndef DOTHRAKI_H
 #define DOTHRAKI_H
 
-class Dothraki(){
+class Dothraki{
 	public:
 		Dothraki();
 		

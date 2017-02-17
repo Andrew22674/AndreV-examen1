@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 #ifndef GUARDIAREAL_H
 #define GUARDIAREAL_H

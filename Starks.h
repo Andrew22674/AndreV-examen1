@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 #include "FamiliasNobles.h"
 
+using namespace std;
 
 #ifndef STARKS_H
 #define STARKS_H

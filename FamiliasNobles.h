@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 #ifndef FAMILIASNOBLES_H
 #define FAMILIASNOBLES_H
