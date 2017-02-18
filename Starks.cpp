@@ -13,6 +13,10 @@
 		guerrerovalioso = warrior;
 		members = integrantes;
 	}
+
+	vector<FamiliasNobles*> Starks::getVector(){
+		return familias;
+	}
 	
 	string Starks::getJefe(){
 		return jefe;
@@ -67,5 +71,9 @@
 	
 	Starks::~Starks(){
 		
+	}
+
+	int Starks::getVectorSize(){
+		return familias.size();
 	}
 

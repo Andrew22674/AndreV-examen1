@@ -13,6 +13,10 @@ FamiliasNobles::FamiliasNobles(string nombre, string simbolo, string lema, int c
 	this -> defensa = defensa;
 }
 
+string FamiliasNobles::getNombre(){
+	return nombre;
+}
+
 FamiliasNobles::~FamiliasNobles(){
 
 }

@@ -12,7 +12,7 @@ using namespace std;
 class Targaryen{
 	public:
 		Targaryen();
-		
+		Targaryen(string, string, string, int, int);		
 		//getters
 		string getReina();
 		string getAnimal();

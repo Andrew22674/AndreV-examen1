@@ -14,7 +14,7 @@ class Starks{
 		//constructor
 		Starks();
 		Starks(string, int, string, string, string, int);
-		
+				
 		//getteres
 		string getJefe();
 		string getLema();
@@ -23,6 +23,9 @@ class Starks{
 		int getCantLobos();
 		int getIntegrantes();
 		FamiliasNobles* getFamilias(int);		
+		int getVectorSize();
+		vector<FamiliasNobles*> getVector();
+
 
 		//setters
 		void setJefe(string);
