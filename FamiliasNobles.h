@@ -9,7 +9,7 @@ using namespace std;
 class FamiliasNobles{
 	public:
 		FamiliasNobles();
-
+		FamiliasNobles(string, string, string, int, int, int);
 		//getters
 		string getNombre();
 		string getSimbolo();

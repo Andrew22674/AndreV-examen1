@@ -6,10 +6,10 @@ using namespace std;
 #ifndef GUARDIAREAL_H
 #define GUARDIAREAL_H
 
-GuardiaReal{
+class GuardiaReal{
 	public:
 		GuardiaReal();
-
+		GuardiaReal(string, int, string, int, int);
 		//Getters
 		string getNombre();
 		string getTipoSoldado();

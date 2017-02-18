@@ -13,7 +13,7 @@ class Starks{
 	public:
 		//constructor
 		Starks();
-
+		Starks(string, int, string, string, string, int);
 		
 		//getteres
 		string getJefe();
@@ -22,7 +22,7 @@ class Starks{
 		string getGuerrero();
 		int getCantLobos();
 		int getIntegrantes();
-		
+		FamiliasNobles* getFamilias(int);		
 
 		//setters
 		void setJefe(string);
@@ -34,7 +34,7 @@ class Starks{
 		void setFamilia(string, string, string, int, int, int);
 		//destructor
 		~Starks();
-	private:
+	public:
 		string jefe;
 		int cantidadlobos;
 		string animalemblema;

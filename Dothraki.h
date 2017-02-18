@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+
 using namespace std;
 
 #ifndef DOTHRAKI_H
@@ -9,15 +10,15 @@ using namespace std;
 class Dothraki{
 	public:
 		Dothraki();
-		
+		Dothraki(string, string, string, string, int, int);		
 		//getters
+		
 		string getNombre();
 		string getJefe();
 		string getCaballo();
 		string getColorCaballo();
 		int getAtaque();
 		int getDefensa();
-
 		//setters
 		void setNombre(string);
 		void setJefe(string);

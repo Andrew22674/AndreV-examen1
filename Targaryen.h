@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
+
+#include "Dothraki.h"
 
 using namespace std;
 
@@ -16,8 +19,9 @@ class Targaryen{
 		string getLema();
 		int getDragones();
 		int getBarcos();
-
+		Dothraki* getDothraki(int);
 		//setters
+		void setDothraki(string, string, string, string, int, int);
 		void setReina(string);
 		void setAnimal(string);
 		void setLema(string);
@@ -27,6 +31,7 @@ class Targaryen{
 		
 		~Targaryen();
 	private:
+		vector<Dothraki*> dothrakis;		
 		string reina;
 		string animal;
 		string lema;

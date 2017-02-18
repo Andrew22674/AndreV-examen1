@@ -4,7 +4,16 @@
 	Starks::Starks(){
 		cantidadlobos = integrantes = 0;
 	}
-
+	
+	Starks::Starks(string chief, int wolves, string emblem, string motto, string warrior, int members){
+		jefe = chief;
+		cantidadlobos = wolves;
+		animalemblema = emblem;
+		lema = motto;
+		guerrerovalioso = warrior;
+		members = integrantes;
+	}
+	
 	string Starks::getJefe(){
 		return jefe;
 	}	
@@ -22,11 +31,11 @@
 	}
 	
 	int Starks::getIntegrantes(){
-		return integrantes(;
+		return integrantes;
 	}
 
 	FamiliasNobles* Starks::getFamilias(int index){
-		return familias.get(index);
+		return familias.at(index);
 	}
 	void Starks::setJefe(string x){
 		jefe = x;
@@ -52,8 +61,8 @@
 		integrantes = cant;
 	}
 
-	void setFamilia(string nombre, string simbolo, string lema, int cant, int ataque, int defensa){
-		familias.push_back(new FamiliasNobles(nombre, simbolo, lema, cant, ataque, defensa);
+	void Starks::setFamilia(string nombre, string simbolo, string lema, int cant, int ataque, int defensa){
+		familias.push_back(new FamiliasNobles(nombre, simbolo, lema, cant, ataque, defensa));
 	}
 	
 	Starks::~Starks(){
